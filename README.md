@@ -1,2 +1,2 @@
 # Hiyo
-Expanse management app
+Expense management app
