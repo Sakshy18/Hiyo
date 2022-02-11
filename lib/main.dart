@@ -36,8 +36,8 @@ class MyCustomFormState extends State<MyCustomForm> {
   final _formKey = GlobalKey<FormState>();
   final items = ['category1', 'category2', 'category3'];
   String? value;
-  TextEditingController amountController = TextEditingController();
-  TextEditingController dateController = TextEditingController();
+  TextEditingController amountController = TextEditingController();   //add class and object to store this variables
+  TextEditingController dateController = TextEditingController();   //store the terminal info in object
 
   @override
   DropdownMenuItem<String> buildMenuItem(String item) => DropdownMenuItem(
